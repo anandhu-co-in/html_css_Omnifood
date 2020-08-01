@@ -1,0 +1,295 @@
+/* widths smaller taht the 1200px. slightly greater than our row width */
+@media only screen and (max-width: 1193px) {
+
+
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .main-nav {
+        padding-right: 2%;
+    }
+
+    .main-nav li {
+        margin-left: 20px;
+    }
+
+
+    .row {
+        padding: 0 20px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 1135px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1050px) {
+
+    .section-plans .col {
+        float: left;
+        margin: 0 px
+    }
+
+    html {
+        font-size: 15px;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 926px) {
+
+    .span-1-of-4,
+    .span-1-of-3 {
+        width: 100%;
+    }
+
+    blockquote {
+        padding: 2%;
+        font-style: italic;
+        line-height: 145%;
+        position: relative;
+        margin-top: 90px;
+
+    }
+
+    blockquote:before {
+        content: "\201C";
+        font-size: 300%;
+        position: absolute;
+        top: 3px;
+        left: 0px;
+    }
+
+
+
+    .steps-box:first-child {
+        text-align: center;
+        margin-top: 0px;
+        width: 40%
+    }
+
+    .steps-box:last-child {
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+
+    }
+
+    .long-copy {
+
+        line-height: 145%;
+        margin-left: 0px;
+        width: 100%;
+
+    }
+
+    .contact-form {
+        width: 100%;
+        margin: 0 0;
+        padding: 0 0;
+
+    }
+
+    .section-form .span-1-of-3 {
+        width: 30%;
+    }
+
+    .section-form .span-2-of-3 {
+        width: 70%;
+    }
+
+    .col {
+        margin: 0 0 4% 0;
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 790px) {
+    
+    .hero-text-box{
+        font-size: 70%;
+        margin-left: 20px
+    }
+    
+    .steps-box:first-child {
+        text-align: center;
+        margin-top: 0px;
+        width: 100%
+    }
+
+    .steps-box:last-child {
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+        width: 100%;
+        text-align:
+
+    }
+
+
+
+
+    .app-screen {
+        width: 25%;
+    }
+
+    .works-step {
+        margin-bottom:
+    }
+
+
+
+    .btn-app img {
+        height: 50px;
+        width: auto;
+        margin-right: 0px;
+
+    }
+
+
+    footer {
+        background-color: #333;
+        padding: 20px;
+        font-size: 70%;
+    }
+
+    .footer-nav li,
+    .social-links li {
+        display: inline-block;
+        margin-right: 10px;
+
+    }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 681px) {
+
+    .mobile-nav-icon {
+        display: inline-block;
+        font-size: 100%;
+
+    }
+
+
+    .main-nav {
+        display: none;
+
+    }
+
+
+    .mobile-nav-icon {
+        margin-top: 15px;
+    }
+
+
+    .mobile-nav-icon {
+        font-size: 200%;
+        color: white;
+    }
+
+
+
+
+    .main-nav {
+        float: left;
+        margin-top: 20px;
+        margin-left: 25px;
+        margin-bottom: 10px;
+
+    }
+
+    .main-nav li {
+        display: block;
+        padding: 5px 0;
+    }
+
+    .main-nav li:active,
+    .main-nav li:visited {
+        display: block;
+        padding: 5px 0;
+    }
+
+
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 10px 0;
+    }
+
+
+    .sticky .main-nav {
+        margin-top: 10px;
+    }
+
+
+
+    .sticky .mobile-nav-icon {
+        color: #555;
+    }
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 581px) {
+
+    .footer-nav li,
+    .social-links li {
+        display: inline-block;
+        margin-right: 2px;
+        font-size: 70%
+    }
+
+    section {
+        padding: 50px 0;
+
+    }
+
+    cite {
+        margin-top: 5px;
+    }
+
+    blockquote {
+        margin-top: 15%
+    }
+
+    .firstbc {
+        margin-top: 0;
+    }
+
+
+
+}
